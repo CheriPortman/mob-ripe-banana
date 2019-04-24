@@ -5,7 +5,7 @@ const request = require('supertest');
 const app = require('../../lib/app');
 const Actor = require('../../lib/models/Actor');
 const Studio = require('../../lib/models/Studio');
-const Film = require('../../lib/models/Film');
+// const Film = require('../../lib/models/Film');
 const seedData = require('../utils/seed-data');
 
 describe('film routes', () => {
